@@ -63,6 +63,7 @@
 1. 项目编译基于**Ubuntu 20.04.6 LTS**,其余操作系统请自行测试
 2. 该示例依赖于 esp-idf V5.2.2，请参阅[入门指南](https://docs.espressif.com/projects/esp-idf/en/v5.2.2/esp32s3/index.html)了解配置和使用 esp-idf 构建项目的完整步骤。
 3. 按照以下命令进行编译项目
+  
     ```bash
 
     # 克隆esp-idf
@@ -78,10 +79,10 @@
     . ./export.sh
 
     # 克隆项目
-    git clone https://gitee.com/lewisxhe/esp32_sx1302.git
+    git clone https://github.com/Xinyuan-LilyGO/LilyGO-ETH-Gateway.git
 
     # 进入项目目录
-    cd esp32_sx1302
+    cd LilyGO-ETH-Gateway
 
     # 编译
     idf.py build
